@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+body{
+    display: flex;
+    background-color: black;
+    font-family: "Oswald", arial, sans-serif;    
+    line-height: 1.7;
+    color: gray;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+}
+#header{
+    background-color: black;
+    width: 12%;
+    height: 100vh;
+    color: aliceblue;
+    text-decoration: none;
+    top: 0;
+    padding: 0;
+    position: fixed;
+}
+#principal{
+    width: 100%;
+    background-image: url(img_9.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: opacity 0.05s;
+    z-index: -1;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oswald", arial,sans-serif;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+}
+#titulo{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+#welcome{
+    font-size: 64px;
+    margin-top: 20%;
+}
+.contato-button {
+    background-color: #ff004c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    text-decoration: none;
+}
+#textinho{
+    font-family: Quiksand, -apple-system, ;
+    margin-bottom: 22%;
+}
+#img1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    row-gap: 10px;
+    margin-left: 12%;
+}
+#img1 div{
+    width: 33%;
+    height: 33vh;
+}
+#img1 img{
+    object-fit: cover;
+    width: 100%;
+    height: 33vh;
+}
+#reparticao3{
+    width: 100%;
+    background-color: black;
+}
+#perfil{
+    border-radius: 100%;
+}
+#TESTIMONIAL{
+    font-size: 70px;
+}
+#textocinza{
+    color: rgb(143, 143, 143);
+    font-size: 18px;
+}
+#reparticao4{
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+}
+#reparticao5{
+    width: 100%;
+    float: right;
+    background-color: rgb(0, 0, 0);
+}
+#contatos{
+    width: 100%;
+    float: right;
+    background-color: rgb(0, 0, 0);
+}
+#biografia{
+    margin-right: 52%;
+    font-size: 2.5rem;
+}
+#imagemfoto{
+    margin-right: 40%;
+}
+#hi{
+    margin-right: 53%;
+    font-size: 2rem;
+}
+#years{
+    margin-right: 38%;
+    font-size: 1.75rem;
+}
+#textos22{
+    margin-right: 16%;
+    justify-content: left;
+}
+#div1{
+    margin-right: 50%;
+}
+#div2{ 
+    float: right;
+    margin-right: 32%;
+}
+#imagensblog{
+    margin-left: 22%;
+}
+#textooo{
+    margin-right: 12%;
+    float: right;
+}
+#BLOG{
+    margin-right: 52%;
+    font-size: 2.5rem;
+}
+h2{
+    margin-right: 50%;
+    font-size: 2.5rem;
+}
+#grupo2{
+    float: right;
+    margin-right: 30%;
+}
+#enviar{
+    
+}
